@@ -10,6 +10,7 @@ django = "==3.1"
 psycopg2-binary = "==2.8.5"
 django-crispy-forms = "*"
 django-allauth = "*"
+environs = "==8.0.0"
 
 [requires]
 python_version = "3.8"
