@@ -6,8 +6,8 @@
 <img class="bookcover" src="{% static 'images/djangoforprofessionals.jpg' %}"><br>
 
 {% if user.is_authenticated %}
-Hi {{ user.email }}! you joined in {{ user.date_joined}}
-<p><a href="{% url 'logout' %}">Log Out</a></p>
+Hi {{ user.email }}! 
+
 {% else %}
 <p>You are not logged in</p>
 
