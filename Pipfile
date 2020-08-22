@@ -11,6 +11,7 @@ psycopg2-binary = "==2.8.5"
 django-crispy-forms = "*"
 django-allauth = "*"
 environs = "==8.0.0"
+pillow = "==6.2.1"
 
 [requires]
 python_version = "3.8"
